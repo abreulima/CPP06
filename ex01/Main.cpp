@@ -29,6 +29,15 @@ int main()
     Data* dt = Serializer::deserialize(ptr);
     std::cout << dt << std::endl;
 
+    if (Serializer::deserialize(Serializer::serialize(&data)) == &data)
+    {
+        std::cout << "Sucess!" << std::endl;
+    }
+    else
+    {
+        std::cout << "Failure!" << std::endl;
+    }
+
     std::cout << std::endl;
 
     std::cout << *dt;
