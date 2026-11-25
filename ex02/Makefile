@@ -1,7 +1,7 @@
 NAME		= main
 CXX 		= c++
 CXXFLAGS 	= -Wall -Werror -Wextra -std=c++98
-SRCS		:= Main.cpp Base.cpp
+SRCS		:= main.cpp Base.cpp
 
 all: $(NAME)
 
