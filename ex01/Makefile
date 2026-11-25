@@ -1,7 +1,7 @@
 NAME		= main
 CXX 		= c++
 CXXFLAGS 	= -Wall -Werror -Wextra -std=c++98
-SRCS		:= Main.cpp Serializer.cpp
+SRCS		:= main.cpp Serializer.cpp
 
 all: $(NAME)
 
