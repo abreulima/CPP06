@@ -1,7 +1,7 @@
 NAME		= main
 CXX 		= c++
 CXXFLAGS 	= -Wall -Werror -Wextra -std=c++98
-SRCS		:= Main.cpp ScalarConverter.cpp
+SRCS		:= main.cpp ScalarConverter.cpp
 
 all: $(NAME)
 
